@@ -1,0 +1,13 @@
+net: "./shuffleNet_V2_0.5x.prototxt"
+test_iter: 1300
+test_interval: 20000
+base_lr: 0.0001
+momentum: 0.9
+momentum2: 0.999
+type: "Adam"
+lr_policy: "fixed"
+display: 100
+max_iter: 2000000
+snapshot: 20000
+snapshot_prefix: "./shufflenetv2_0.5x/shuffleNet_V2_0.5x"
+solver_mode: GPU
